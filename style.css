@@ -1,0 +1,28 @@
+body{
+    background-color:turquoise;
+    height:120vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center center;
+    place-items: center center;
+    color:#fff;
+    font-size: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+input{
+    flex: 0 1 2rem;
+    width: 13rem;
+}
+.resim{
+    height: 100px;
+    width: 100px;
+}
+img {
+    width: 800px;
+    height: 400px;
+}
